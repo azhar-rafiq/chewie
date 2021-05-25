@@ -13,7 +13,11 @@ dependencies:
     sdk: flutter
 #   video_player: ^2.0.0
 #   ext_video_player: ^0.0.3
-  ext_video_player: ^0.0.6
+#   ext_video_player: ^0.0.6
+
+  ext_video_player:
+    git:
+      url: https://github.com/azhar-rafiq/ext_video_player/
   wakelock: ^0.5.1
 
 dev_dependencies:
